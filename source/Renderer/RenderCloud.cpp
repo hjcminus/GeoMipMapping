@@ -24,7 +24,7 @@ RenderCloud::~RenderCloud() {
 bool RenderCloud::Init(d3d11_ctx_s *ctx, const char_t *res_dir) {
 	// load texture
 	char_t full_tex_filename[MAX_PATH_];
-	sprintf_s_(full_tex_filename, TXT_("%s\\skydome\\cloud.png"), res_dir);
+	sprintf_s_(full_tex_filename, TXT_("%s\\cloud\\cloud.png"), res_dir);
 	int tex_width, tex_height;
 	if (!LoadTexture(ctx, full_tex_filename, false, true, mTexture, mTextureSRV, mTextureSS, tex_width, tex_height)) {
 		return false;

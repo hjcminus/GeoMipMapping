@@ -102,8 +102,8 @@ void		Vec4MulAdd(const vec4_t a, float f, const vec4_t b, vec4_t out);
 #define FOVY					70.0f
 #define NEAR_CLIP_PLANE			1.0f
 #define FAR_CLIP_PLANE			8192.0f
-#define VIEWPORT_CX				800
-#define VIEWPORT_CY				450
+#define VIEWPORT_CX				1024
+#define VIEWPORT_CY				600
 
 struct camera_s {
 	vec3_t						mPos;

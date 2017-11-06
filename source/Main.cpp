@@ -74,9 +74,12 @@ int main(int argc, char **argv) {
 
 	Sys_InitTimer();
 
+	printf("---------- GeoMipMapping ----------\n");
 	printf("F2: toggle draw terrain\n");
 	printf("F3: toggle draw wireframe mode\n");
 	printf("F4: toggle draw skydome\n");
+	printf("Space: hide/show cursor\n");
+	printf("W,S,A,D,Q,Z: to move around\n");
 	printf("Page Up: increase move speed (max: %d)\n", (int)MAX_MOVE_SPEED);
 	printf("Page Down: decrease move speed (min: %d)\n", (int)MIN_MOVE_SPEED);
 	printf("Arrow Up: increase pixel error (max: %d)\n", (int)MAX_PIXEL_ERROR);
